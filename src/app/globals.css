@@ -25,3 +25,7 @@ body {
     text-wrap: balance;
   }
 }
+
+select.form-select {
+  @apply py-[18px] md:py-[22px] px-[24px] rounded-lg border-[1px] border-[#222D4B] placeholder:text-[24px] font-[450] placeholder:text-[#222D4BB2] text-[24px] w-full;
+}
